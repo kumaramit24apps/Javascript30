@@ -6,7 +6,7 @@ Here I will reflect on what I have learn each day. I will jot down every importa
 
 This will help me look back my learnings. 
 
-### Day 01 
+### Day 01 - Drum Kit App
 This is the Day 01. Today I have learned about the following concepts in javascript: 
 
 - Audio Elements: HTMLAudioElement Properties and Methods
@@ -67,13 +67,13 @@ This code selects an  ```<audio>``` element with id "myAudio" using getElementBy
 
     // Selecting all the keys
     const keys = document.querySelectorAll(".key");
-
-    /* when this function is called as an event listener for a transitionend event, 
-    it checks if the transition was triggered by the "transform" property. If it 
-    wasn't, nothing happens. If it was, it removes the CSS class "playing" from the
-    element that triggered the event. */
-
     keys.forEach(key => key.addEventListener("transitionend", removeTransition));
+   
+   
+   /* when following function is called as an event listener for a transitionend
+    event, it checks if the transition was triggered by the "transform" property. 
+    If it wasn't, nothing happens. If it was, it removes the CSS class "playing" 
+    from the element that triggered the event. */
 
     function removeTransition(e) {
         if(e.propertyName !== "transform") return;
