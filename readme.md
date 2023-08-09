@@ -11,13 +11,13 @@ This is the Day 01. Today I have learned about the following concepts in javascr
 
 - Audio Elements: HTMLAudioElement Properties and Methods
     - Properties: 
-        - **```currentTime```: Get or set the current playback time position**
-        - *```duration```: Returns the total duration of the the audio*
-        - *```paused```: Indicates whether the audio is paused or not*
-        - *```volume```: Gets or sets the volume level of the audio*
+        - ```currentTime```: Get or set the current playback time position
+        - ```duration```: Returns the total duration of the the audio*
+        - ```paused```: Indicates whether the audio is paused or not*
+        - ```volume```: Gets or sets the volume level of the audio*
 
     - Methods: 
-        - **```play()```: play the audio from current position**
+        - ```play()```: play the audio from current position
         - ```pause()```: pause the audio playback
         - ```load()```: loads/reloads the audio file 
 
@@ -68,7 +68,10 @@ This code selects an  ```<audio>``` element with id "myAudio" using getElementBy
     // Selecting all the keys
     const keys = document.querySelectorAll(".key");
 
-    /* when this function is called as an event listener for a transitionend event, it checks if the transition was triggered by the "transform" property. If it wasn't, nothing happens. If it was, it removes the CSS class "playing" from the element that triggered the event. */
+    /* when this function is called as an event listener for a transitionend event, 
+    it checks if the transition was triggered by the "transform" property. If it 
+    wasn't, nothing happens. If it was, it removes the CSS class "playing" from the
+    element that triggered the event. */
 
     keys.forEach(key => key.addEventListener("transitionend", removeTransition));
 
