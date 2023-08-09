@@ -60,6 +60,28 @@
 
 <script>
 
+  // Function to play sound and adding transform on play
+  function playsound(e){
+    const audio = document.querySelector(`audio[data-key="${e.keyCode}"]`);
+    const key = document.querySelector(`.key[data-key="${e.keyCode}"]`)
+    if(!audio) return // stop the function running
+    audio.currentTime = 0; // set the current time to zero to reset the current time and play audio again on keypress
+    audio.play();
+    key.classList.add("playing"); //adding .playing class from CSS to the current key element
+  }
+
+  const keys = document.querySelectorAll(".key");
+  keys.forEach(key => key.addEventListener("transitionend", removeTransition));
+
+  function removeTransition(e) {
+    if(e.propertyName !== "transform") return;
+
+    this.classList.remove("playing");
+  }
+
+  window.addEventListener("keydown", playsound);
+
+
 </script>
 
 
