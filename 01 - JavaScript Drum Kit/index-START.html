@@ -62,17 +62,27 @@
 
   // Function to play sound and adding transform on play
   function playsound(e){
+    // Selecting the audio element based on it's data attribute
     const audio = document.querySelector(`audio[data-key="${e.keyCode}"]`);
+
+    // Selecting the relevant keys baased on data attribute
     const key = document.querySelector(`.key[data-key="${e.keyCode}"]`)
-    if(!audio) return // stop the function running
-    audio.currentTime = 0; // set the current time to zero to reset the current time and play audio again on keypress
+
+    if(!audio) return // if audio is undefined stop the function running
+    
+    audio.currentTime = 0; // reset the current time to zero to reset the current time and play audio again on keypress
+    // call the play method from HTMLAudioElement interface.
     audio.play();
+
     key.classList.add("playing"); //adding .playing class from CSS to the current key element
   }
 
   const keys = document.querySelectorAll(".key");
   keys.forEach(key => key.addEventListener("transitionend", removeTransition));
 
+  /*
+  The removeTransition function is designed to remove a CSS class called "playing" from an element when a transition has ended.
+  */
   function removeTransition(e) {
     if(e.propertyName !== "transform") return;
 
