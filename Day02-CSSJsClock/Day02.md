@@ -1,5 +1,5 @@
 
-## Day 01 - CSS - JS Clock 
+## Day 02 - CSS - JS Clock 
 Notes from day 02
 
 - Audio Elements: HTMLAudioElement Properties and Methods
