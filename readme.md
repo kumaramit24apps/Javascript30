@@ -1,7 +1,7 @@
 # 30 Days Javascript Project Building
 
-## Notes of each project
-Here is a list of notes which I have created for each 
+## Each Day Note
+Here is a list of notes which I have created for each day.
 
 List of notes from Day 01: 
 
