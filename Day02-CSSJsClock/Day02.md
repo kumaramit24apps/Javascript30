@@ -3,81 +3,49 @@
 ## Day 02 - CSS - JS Clock 
 Notes from day 02
 
-- Audio Elements: HTMLAudioElement Properties and Methods
-    - Properties: 
-        - ```currentTime```: Get or set the current playback time position
-        - ```duration```: Returns the total duration of the the audio*
-        - ```paused```: Indicates whether the audio is paused or not*
-        - ```volume```: Gets or sets the volume level of the audio*
+## Working with Dates and Times using JavaScript's Date Object
 
-    - Methods: 
-        - ```play()```: play the audio from current position
-        - ```pause()```: pause the audio playback
-        - ```load()```: loads/reloads the audio file 
+In JavaScript, we can use the `Date` object to handle dates and times effectively. This object provides various methods that allow us to manipulate different components of a date, including the year, month, day, hour, minute, second, and millisecond.
 
-### How to use the Audio Element Properties and Methods
-To interact with an ```<audio>``` element in JavaScript, you can use methods like getElementById() or querySelector() to select and retrieve a reference to the ```<audio>``` element in your code. Once you have a reference to it, you can access its properties and call its methods to control playback, adjust volume, get duration, etc.
+Here's a breakdown of how it works:
+
+1. We can create a new `Date` object using the `new Date()` syntax. This instance represents the current date and time.
+
+2. To extract specific components, we can use methods like `getSeconds()`, `getMinutes()`, and `getHours()`. For instance, by using `getSeconds()`, we retrieve the current seconds component and store it in a variable called `seconds`.
+
+3. Similarly, the `getMinutes()` method gives us the current minutes component, and `getHours()` provides the current hours component. We save these values in variables named `minutes` and `hours`, respectively.
+
+4. With these variables (`seconds`, `minutes`, and `hours`), we can calculate the degrees of rotation for each clock hand based on their corresponding time units.
+
+5. Finally, we apply these calculated degrees of rotation to the CSS `transform` property of each clock hand using template literals, like `rotate(${degrees}deg)`.
+
+By utilizing the capabilities offered by the JavaScript `Date` object, we can accurately update and display real-time information on a clock.
+
+Here's the complete code: 
 ```javascript
-// Function to play sound and adding transform on play
 
-  function playsound(e){
+    let secondHand = document.querySelector('.second-hand');
+    let minuteHand = document.querySelector('.min-hand');
+    let hourHand = document.querySelector('.hour-hand');
 
-    // Selecting the audio element based on it's data attribute
-    const audio = document.querySelector(`audio[data-key="${e.keyCode}"]`);
+    function setDate(){
+      const now = new Date();
+      const seconds = now.getSeconds();
 
-    // Selecting the relevant keys baased on data attribute
-    const key = document.querySelector(`.key[data-key="${e.keyCode}"]`)
+      let secondsToDegree = ((seconds / 60) * 360) + 90;
+      secondHand.style.transform = `rotate(${secondsToDegree}deg)`;
 
-    // checks if the matching audio element exists
-    if(!audio) return 
+      const minutes = now.getMinutes();
+      let minutesToDegree = ((minutes / 60) * 360) + 90;
+      minuteHand.style.transform = `rotate(${minutesToDegree}deg)`;
 
-    // reset the current time to zero to reset the 
-    // current time and play audio again on keypress
-    audio.currentTime = 0; 
+      const hours = now.getHours();
+      let hoursToDegree = ((hours / 12) * 360) + 90;
 
-    // call the play method from HTMLAudioElement interface.
-    audio.play();
+      hourHand.style.transform = `rotate(${hoursToDegree}deg)`;
 
-    //adding .playing class from CSS to the current key element
-    key.classList.add("playing"); 
-  }
-```
-For example, here's how you can play an ```<audio>``` element using JavaScript:
-This code selects an  ```<audio>``` element with id "myAudio" using getElementById(), and then calls its .play() method to start playing the audio.
-
-- Key Events: **keydown event**
-    - keydown event
-        ```javascript
-        window.addEventListener("keydown", playsound);
-        ```  
-        when a key is pressed down, the function specified as the second argument .ie. ```playsound()``` will be executed.
-        
-- ```transitionend``` event: This event is fired when the CSS transition is completed. 
-    
-    When an element undergoes a CSS transition, which is a change in its CSS properties over time, the transitionend event is triggered once the transition has finished. This event allows you to perform actions or execute code after the transition has completed.
-
-    To listen for the transitionend event, you can use the addEventListener() method in JavaScript.
-    ```javascript
-
-    // Selecting all the keys
-    const keys = document.querySelectorAll(".key");
-    keys.forEach(key => key.addEventListener("transitionend", removeTransition));
-   
-   
-   /* when following function is called as an event listener for a transitionend
-    event, it checks if the transition was triggered by the "transform" property. 
-    If it wasn't, nothing happens. If it was, it removes the CSS class "playing" 
-    from the element that triggered the event. */
-
-    function removeTransition(e) {
-        if(e.propertyName !== "transform") return;
-        this.classList.remove("playing");
     }
 
-    ```
 
-This wraps up day 01. It was quite easy and simple. 
-
-
-*** 
----
+    setInterval(setDate, 1000);
+```
