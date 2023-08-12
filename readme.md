@@ -10,5 +10,5 @@ Here is a list of notes which I have created for each day.
 1.  📒 [Day 03 - CSS Variables Play](Day03-CSSVariables/Day03.md)
     -   Demo: [CSS Variables](https://palywithcssvariables.netlify.app/)
 1.  📒 [Day 04 - Array Cardio Day 1](Day04-ArrayCardio01/Day04.md)
-    -   Demo: [Array Cardio 01](#)
+    -   Demo: ~~[Array Cardio 01](#)~~
 
