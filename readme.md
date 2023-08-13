@@ -11,4 +11,6 @@ Here is a list of notes which I have created for each day.
     -   Demo: [CSS Variables](https://palywithcssvariables.netlify.app/)
 1.  📒 [Day 04 - Array Cardio Day 1](Day04-ArrayCardio01/Day04.md)
     -   Demo: ~~[Array Cardio 01](#)~~
+1.  📒 [Day 05 - Flex Panel Gallery](Day05-FlexPanelGallery/Day05.md)
+    -   Demo: [Flex Panel Gallery](#)
 
