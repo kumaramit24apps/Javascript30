@@ -15,5 +15,4 @@ Here is a list of notes which I have created for each day.
     -   Demo: [Flex Panel Gallery](https://flexpanelslider.netlify.app/)
     📒 [Day 06 - Ajax Type Ahead Search Feature](Day06-AjaxTypeAhead/Day06.md)
     -   Demo: [Ajax Type Ahead Search Feature](https://typesearchfilter.netlify.app)
-    -   Demo: [Ajax Type Ahead Search Feature](typesearchfilter.netlify.app)
 
