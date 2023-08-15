@@ -33,7 +33,7 @@ I have explained each line in the comment block itself, so that it's easier to u
             //if the city of states matches our search
             const regex = new RegExp(wordToMatch, 'gi');
 
-            // we'll return the matched city or places
+            // we'll return the matched city or states
             return place.city.match(regex) || place.state.match(regex);
         })
     }

@@ -16,3 +16,7 @@ Here is a list of notes which I have created for each day.
     📒 [Day 06 - Ajax Type Ahead Search Feature](Day06-AjaxTypeAhead/Day06.md)
     -   Demo: [Ajax Type Ahead Search Feature](https://typesearchfilter.netlify.app)
 
+    📒 [Day 07 - Array Cardio Day 2](Day07-ArrayCardio2/Day07.md)
+    -   Demo: [Ajax Type Ahead Search Feature](https://typesearchfilter.netlify.app)
+        
+
