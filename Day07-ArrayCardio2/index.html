@@ -75,6 +75,13 @@
     // comments.splice(index, 1); // start from the index (1) and remove 1 item. 
 
 
+    /* We're simply extracting the comments starting from index 0, to index (1) and then again we're extracting the comments starting from index + 1(which is 2), leaving index one, and extracting upto all the items in the comments array, 
+
+    we're then spreading those arrays returned by the slice method inside the new array (newComments)
+    
+    This method will not change the original comments array. 
+    */ 
+
     const newComments = [
         ...comments.slice(0, index), 
         ...comments.slice(index + 1)

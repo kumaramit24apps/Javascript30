@@ -4,8 +4,27 @@
 
 **Code Summary of Day 07**
 
-I have explained each line in the comment block itself, so that it's easier to understand. 
+Methods we covered today: 
 
+- <details>
+    <summary><strong>Array.some()</strong></summary>
+    Array.some is a JavaScript method that checks if at least one element in an array satisfies a given condition. It returns a boolean value: true if any element passes the condition, and false if none of the elements do.
+  </details>
+- <details>
+    <summary><strong>Array.every()</strong></summary>
+    The Array.every method in JavaScript checks if every array element satisfies a condition. It returns true if all elements pass, false if any fail.
+  </details>
+- <details>
+    <summary><strong>Array.find()</strong></summary>
+    Array.find() is a method in JavaScript that finds the first element in an array that satisfies a given condition. It returns the value of the first matching element, or undefined if no element is found.  </details>
+- <details>
+    <summary><strong>Array.findIndex()</strong></summary>
+    Array.findIndex() is a JavaScript method that returns the index of the first element in an array that satisfies a given condition. If no element matches the condition, it returns -1
+    </details>
+
+
+
+**Complete code with comments below:**
 
 ```javascript
  // ## Array Cardio Day 2
@@ -41,7 +60,6 @@ I have explained each line in the comment block itself, so that it's easier to u
     console.log(isAdult); */
 
     // Now using arrow functions to refactor the above function 
-
     const isAdult = people.some(person => {
         (new Date().getFullYear()) - person.year >= 19;
     })
@@ -50,7 +68,7 @@ I have explained each line in the comment block itself, so that it's easier to u
 
 
     // Array.prototype.every() // is everyone 19 or older?
-    const allAdults = people.some(person => {
+    const allAdults = people.every(person => {
         (new Date().getFullYear()) - person.year >= 19;
     })
 
