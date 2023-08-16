@@ -19,4 +19,6 @@ Here is a list of notes which I have created for each day.
     📒 [Day 07 - Array Cardio Day 2](Day07-ArrayCardio2/Day07.md)
     -  ~~Demo: [Array Cardio Day 2](#)~~
         
-
+    📒 [Day 08 - Fun with HTML5 Canvas](Day08-HTML5Canvas/Day08.md)
+    -  Demo: [Fun with HTML5 Canvas](#)
+ 
