@@ -1,6 +1,6 @@
 [👈 Go back](../readme.md)
 
-## Day 10 - Dev Tools Tricks
+## Day 10 - Hold Shift to Check Multiple Checboxes.
 
 **Code Summary of Day 10**
 
