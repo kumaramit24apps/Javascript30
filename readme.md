@@ -19,4 +19,6 @@ Here is a list of notes which I have created for each day.
         -  ~~Demo: [Array Cardio Day 2](#)~~
 1.    📒 [Day 08 - Fun with HTML5 Canvas](Day08-HTML5Canvas/Day08.md)
         -  Demo: [Fun with HTML5 Canvas](https://paintappjs.netlify.app/)
+1.    📒 [Day 09 - DevToolsTricks](Day09-DevToolsTricks/Day09.md)
+        -  Demo: ~~[DevToolsTricks](#)~~
  
