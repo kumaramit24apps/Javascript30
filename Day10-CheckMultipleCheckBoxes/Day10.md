@@ -8,7 +8,6 @@ Today we've created a todo list with option to select multiple checkboxes by hol
 
 ```javascript
     let checkboxes = document.querySelectorAll('.inbox input[type=checkbox]');
-        let firstChecked;
         let lastChecked; 
 
         function handleCheck(e){
