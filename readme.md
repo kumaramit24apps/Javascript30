@@ -25,3 +25,5 @@ Here is a list of notes which I have created for each day.
         -  Demo: [CheckMultipleCheckBoxes](https://todolistshiftkeyselection.netlify.app/)
 1.    📒 [Day 11 - CustomVideoPlayer](Day11-CustomVideoPlayer/Day11.md)
         -  Demo: [CustomVideoPlayer](https://customvideoplayerhtml5.netlify.app/)
+1.    📒 [Day 12 - KeySequenceDetection](Day12-KeySequenceDetection/Day12.md)
+        -  Demo: [KeySequenceDetection](https://KeySequenceDetection.netlify.app/)
