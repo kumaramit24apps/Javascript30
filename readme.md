@@ -28,4 +28,4 @@ Here is a list of notes which I have created for each day.
 1.    📒 [Day 12 - KeySequenceDetection](Day12-KeySequenceDetection/Day12.md)
         -  Demo: [KeySequenceDetection](https://keysequencedetection.netlify.app/)
 1.    📒 [Day 13 - SlideInOnScroll](Day13-SlideInOnScroll/Day13.md)
-        -  Demo: [SlideInOnScroll](https://slideinonscroll.netlify.app/)
+        -  Demo: [SlideInOnScroll](https://slideinonscrolljs.netlify.app/)
