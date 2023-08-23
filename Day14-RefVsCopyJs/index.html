@@ -126,12 +126,11 @@
 
     // it makes one level deep copy not the entire object
     const dev = Object.assign({}, wes); 
-    
-    dev.name = "Dev";
-
 
     dev.social.twitter = "ikumaramit";
 
+    // returns a copy of the object wes. 
+    const dev2 = JSON.parse(JSON.stringify(wes));
     
 
   </script>
