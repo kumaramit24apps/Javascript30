@@ -31,3 +31,5 @@ Here is a list of notes which I have created for each day.
         -  Demo: [SlideInOnScroll](https://slideinonscrolljs.netlify.app/)
 1.    📒 [Day 14 - RefVsCopyJs](Day14-RefVsCopyJs/Day14.md)
         -  Demo: ~~[RefVsCopyJs](#)~~
+1.    📒 [Day 15 - ToDoListStorage](Day15-ToDoListStorage/Day15.md)
+        -  Demo: [ToDoListStorage](https://todoliststorage.netlify.app/)
