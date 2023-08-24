@@ -33,5 +33,5 @@ Here is a list of notes which I have created for each day.
         -  Demo: ~~[RefVsCopyJs](#)~~
 1.    📒 [Day 15 - ToDoListStorage](Day15-ToDoListStorage/Day15.md)
         -  Demo: [ToDoListStorage](https://todoliststorage.netlify.app/)
-1.    📒 [Day 16 - MouseMoveShadow](Day16-MouseMoveShadow/Day15.md)
+1.    📒 [Day 16 - MouseMoveShadow](Day16-MouseMoveShadow/Day16.md)
         -  Demo: [MouseMoveShadow](https://jsmousemoveshadow.netlify.app/)
