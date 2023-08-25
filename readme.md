@@ -35,3 +35,5 @@ Here is a list of notes which I have created for each day.
         -  Demo: [ToDoListStorage](https://todoliststorage.netlify.app/)
 1.    📒 [Day 16 - MouseMoveShadow](Day16-MouseMoveShadow/Day16.md)
         -  Demo: [MouseMoveShadow](https://jsmousemoveshadow.netlify.app/)
+1.    📒 [Day 17 - SortingBandNames](Day17-SortingBandNames/Day17.md)
+        -  Demo: [SortingBandNames](https://sortingbandnames.netlify.app/)
