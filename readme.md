@@ -37,3 +37,5 @@ Here is a list of notes which I have created for each day.
         -  Demo: [MouseMoveShadow](https://jsmousemoveshadow.netlify.app/)
 1.    📒 [Day 17 - SortingBandNames](Day17-SortingBandNames/Day17.md)
         -  Demo: ~~[SortingBandNames](#)~~
+1.    📒 [Day 18 - Day18-TallyStringTimes](Day18-TallyStringTimes/Day18.md)
+        -  Demo: ~~[Day18-TallyStringTimes](#)~~
