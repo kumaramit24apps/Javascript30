@@ -183,6 +183,51 @@
     </li>
   </ul>
 <script>
+
+    // getting all the nodelists
+    const timeNodes = document.querySelectorAll('[data-time]');
+
+    // converting nodelists to an array 
+    const timeNodesArray = Array.from(timeNodes);
+
+    // getting time from the dataset attribute of eah of the nodelists
+    const seconds = timeNodesArray
+                    .map(node => node.dataset.time)
+                    .map(timeCode => {
+                        
+                        const [mins, secs] = timeCode.split(':')
+                        // splitting mins and seconds into respective variables
+
+                        .map(parseFloat);
+                        // converting strings to numbers using parseFloat 
+
+                        return (mins * 60) + secs;
+                        // converting to seconds
+
+                        console.log(mins, secs);
+
+                    })
+
+                    .reduce((total, vidSeconds) =>  total + vidSeconds)
+                    // now adding up all the seconds to a total number of seconds
+
+                    let secondsLeft = seconds;
+
+                    const hours = Math.floor(secondsLeft / (60 * 60))
+                    // getting hours only
+
+                    secondsLeft = secondsLeft % (60 * 60);
+                    // getting everything into seconds only
+
+                    const mins = Math.floor(secondsLeft / 60); 
+                    // getting only mins
+
+                    secondsLeft = secondsLeft % 60;
+                    // actual seconds left
+
+        console.log(hours, mins, secondsLeft);
+        // turning time into just seconds since
+
 </script>
 </body>
 </html>
