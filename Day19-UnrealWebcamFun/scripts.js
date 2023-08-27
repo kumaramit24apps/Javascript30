@@ -1,10 +1,3 @@
-[👈 Go back](../readme.md)
-
-## Day 19 - Unreal Webcam Fun
-
-**Code Summary: Unreal Webcam Fun**
-
-```javascript
 const video = document.querySelector('.player');
 const canvas = document.querySelector('.photo');
 const ctx = canvas.getContext('2d');
@@ -133,5 +126,3 @@ video.addEventListener('canplay', paintToCanvas);
 // once the video is playing inside the video element, 
 // it'll trigger the ```canplay``` event and hence 
 // paintToCanvas will be called. 
-
-```
