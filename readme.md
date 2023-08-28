@@ -43,5 +43,7 @@ Here is a list of notes which I have created for each day.
         -  Demo: [Day19-UnrealWebcamFun](https://unrealwebcamfunjs.netlify.app/)
 1.    📒 [Day 20 - Day20-NativeSpeechRecognition](Day20-NativeSpeechRecognition/Day20.md)
         -  Demo: [Day20-NativeSpeechRecognition](https://jsnativespeechrecognition.netlify.app/)
+1.    📒 [Day 21 - GeolocationAPI](Day21-GeolocationAPI/Day21.md)
+        -  Demo: [Day20-GeolocationAPISpeedometer](https://geolocationspeedometer.netlify.app/)
 
         
