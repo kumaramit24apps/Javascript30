@@ -41,3 +41,7 @@ Here is a list of notes which I have created for each day.
         -  Demo: ~~[Day18-TallyStringTimes](#)~~
 1.    📒 [Day 19 - Day19-UnrealWebcamFun](Day19-UnrealWebcamFun/Day19.md)
         -  Demo: [Day19-UnrealWebcamFun](https://unrealwebcamfunjs.netlify.app/)
+1.    📒 [Day 20 - Day20-NativeSpeechRecognition](Day20-NativeSpeechRecognition/Day20.md)
+        -  Demo: [Day20-NativeSpeechRecognition](https://jsnativespeechrecognition.netlify.app/)
+
+        
