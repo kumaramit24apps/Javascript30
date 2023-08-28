@@ -65,15 +65,11 @@
     const speed = document.querySelector('.speed-value');
 
     navigator.geolocation.watchPosition((data) => {
-
-      console.log(data);
-      speed.textContent = data.coords.speed; 
+      speed.textContent = data.coords.speed * 1000 / 3600;
       arrow.style.transform = `rotate(${data.coords.heading}deg)`;
-
     }, (err) => {
-       alert("You didn't allowed the location access!");
+      alert(err)
     });
-
 
   </script>
 </body>
