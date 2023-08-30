@@ -45,5 +45,8 @@ Here is a list of notes which I have created for each day.
         -  Demo: [Day20-NativeSpeechRecognition](https://jsnativespeechrecognition.netlify.app/)
 1.    📒 [Day 21 - GeolocationAPI](Day21-GeolocationAPI/Day21.md)
         -  Demo: [Day20-GeolocationAPISpeedometer](https://geolocationspeedometer.netlify.app/)
+1.    📒 [Day 22 - FollowAlongLink](Day22-FollowAlongLink/Day22.md)
+        -  Demo: [Day22-FollowAlongLink](https://jsfollowalonglink.netlify.app/)
+
 
         
