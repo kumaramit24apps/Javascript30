@@ -48,5 +48,7 @@ Here is a list of notes which I have created for each day.
 1.    📒 [Day 22 - FollowAlongLinks](Day22-FollowAlongLinks/Day22.md)
         -  Demo: [Day22-FollowAlongLinks](https://jsfollowalonglink.netlify.app/)
 
+1.    📒 [Day 23 - SpeechSynthesisAPI](Day23-SpeechSynthesisAPI/Day23.md)
+        -  Demo: [Day23-SpeechSynthesisAPI](https://jsspeechsynthesisapi.netlify.app/)
 
         
