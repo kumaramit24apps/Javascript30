@@ -50,5 +50,8 @@ Here is a list of notes which I have created for each day.
 
 1.    📒 [Day 23 - SpeechSynthesisAPI](Day23-SpeechSynthesisAPI/Day23.md)
         -  Demo: [Day23-SpeechSynthesisAPI](https://jsspeechsynthesisapi.netlify.app/)
+1.    📒 [Day 24 - StickyNavbar](Day24-StickyNavbar/Day24.md)
+        -  Demo: [Day24-StickyNavbar](https://stickynavbarjs.netlify.app/)
+
 
         
