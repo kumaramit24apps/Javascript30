@@ -14,7 +14,7 @@ const topOfNav = nav.offsetTop;
 // We define a function called 'fixNav' to handle fixing the navigation
 function fixNav() {
   // If we have scrolled past or reached the 'nav' element
-  if (window.scrollY >= topOfNav) {
+  if (window.scrollY >= topOfNav) { 
     // We adjust the padding-top of the body to make space for the fixed navigation
     document.body.style.paddingTop = nav.offsetHeight + "px";
     // We add a class called 'fixed-nav' to make the navigation stay fixed at the top
