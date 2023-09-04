@@ -54,7 +54,9 @@ Here is a list of notes which I have created for each day.
         -  Demo: [Day24-StickyNavbar](https://stickynavbarjs.netlify.app/)
 1.    📒 [Day 25 - EventConceptsJS](Day25-EventConceptsJS/Day24.md)
         -  Demo: ~~[Day25-EventConceptsJS](#)~~
-1.    📒 [Day 26 - StripeFollowAlongDropdown](Day26-StripeFollowAlongDropdown/Day24.md)
+1.    📒 [Day 26 - StripeFollowAlongDropdown](Day26-StripeFollowAlongDropdown/Day26.md)
         -  Demo: [Day26-StripeFollowAlongDropdown](https://stripestyledropdown.netlify.app/)
+1.    📒 [Day 27 - ClickDragScroll](Day27-ClickDragScroll/Day27.md)
+        -  Demo: [Day27-ClickDragScroll](https://clickdragscroll.netlify.app/)
 
         
