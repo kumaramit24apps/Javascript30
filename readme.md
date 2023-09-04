@@ -57,6 +57,6 @@ Here is a list of notes which I have created for each day.
 1.    📒 [Day 26 - StripeFollowAlongDropdown](Day26-StripeFollowAlongDropdown/Day26.md)
         -  Demo: [Day26-StripeFollowAlongDropdown](https://stripestyledropdown.netlify.app/)
 1.    📒 [Day 27 - ClickDragScroll](Day27-ClickDragScroll/Day27.md)
-        -  Demo: [Day27-ClickDragScroll](https://clickdragscroll.netlify.app/)
+        -  Demo: [Day27-ClickDragScroll](https://dragtoslide.netlify.app/)
 
         
