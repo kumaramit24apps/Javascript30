@@ -58,5 +58,7 @@ Here is a list of notes which I have created for each day.
         -  Demo: [Day26-StripeFollowAlongDropdown](https://stripestyledropdown.netlify.app/)
 1.    📒 [Day 27 - ClickDragScroll](Day27-ClickDragScroll/Day27.md)
         -  Demo: [Day27-ClickDragScroll](https://dragtoslide.netlify.app/)
+1.    📒 [Day 28 - VideoSpeedScrubberJS](Day28-VideoSpeedScrubberJS/Day28.md)
+        -  Demo: [Day28-VideoSpeedScrubberJS](https://videospeedscrubberjs.netlify.app/)
 
         
