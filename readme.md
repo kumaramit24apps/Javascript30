@@ -60,5 +60,7 @@ Here is a list of notes which I have created for each day.
         -  Demo: [Day27-ClickDragScroll](https://dragtoslide.netlify.app/)
 1.    📒 [Day 28 - VideoSpeedScrubberJS](Day28-VideoSpeedScrubberJS/Day28.md)
         -  Demo: [Day28-VideoSpeedScrubberJS](https://videospeedscrubberjs.netlify.app/)
+1.    📒 [Day 29- CountDownClock](Day29-CountDownClock/Day29.md)
+        -  Demo: [Day29-CountDownClock](https://countdowntimerjs.netlify.app/)
 
         
